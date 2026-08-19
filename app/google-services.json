@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "908875236338",
+    "project_id": "mr--makeup",
+    "storage_bucket": "mr--makeup.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908875236338:android:31cd13d044ee6e67b1216b",
+        "android_client_info": {
+          "package_name": "com.mistermakeup.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkBvv7pEGEyOJZOnzUQZF7SU-dPP_ukKA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
