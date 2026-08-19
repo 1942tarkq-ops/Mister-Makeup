@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Mister Makeup</title>
+
+<style>
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    background:#fff7fb;
+    font-family:Arial,sans-serif;
+    color:#25121d;
+}
+
+header{
+    background:#130b12;
+    color:white;
+    padding:18px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#ff3f9a;
+}
+
+.search{
+    margin:15px;
+    padding:13px;
+    background:white;
+    border:1px solid #ead2df;
+    border-radius:25px;
+    color:#9a7185;
+}
+
+.hero{
+    margin:15px;
+    padding:25px;
+    border-radius:20px;
+    background:linear-gradient(135deg,#4d102f,#ff3f9a);
+    color:white;
+}
+
+.hero h1{
+    margin-top:0;
+}
+
+button{
+    border:0;
+    border-radius:22px;
+    padding:11px 18px;
+    background:#ff3f9a;
+    color:white;
+    font-weight:bold;
+}
+
+h2{
+    margin:20px 15px 10px;
+}
+
+.categories{
+    display:flex;
+    gap:10px;
+    overflow:auto;
+    padding:0 15px;
+}
+
+.category{
+    min-width:80px;
+    padding:12px;
+    background:white;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 2px 10px #ead5df;
+}
+
+.category div{
+    font-size:28px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+    padding:15px;
+}
+
+.product{
+    background:white;
+    border-radius:17px;
+    padding:10px;
+    box-shadow:0 2px 10px #ead5df;
+}
+
+.photo{
+    height:130px;
+    background:#fff0f7;
+    border-radius:13px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:55px;
+}
+
+.price{
+    color:#e51c78;
+    font-weight:bold;
+    margin:8px 0;
+}
+
+.product button{
+    width:100%;
+}
+
+nav{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#160d14;
+    color:white;
+    display:flex;
+    justify-content:space-around;
+    padding:12px;
+}
+
+nav button{
+    background:none;
+    padding:5px;
+    font-size:11px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div>☰</div>
+    <div class="logo">MISTER <span>MAKEUP</span></div>
+    <div>🛒</div>
+</header>
+
+<div class="search">
+    🔍 ابحث عن منتج...
+</div>
+
+<section class="hero">
+    <h1>جمالك يبدأ من هنا 💄</h1>
+    <p>اكتشفي أفضل منتجات الميكب</p>
+    <button onclick="alert('قريبًا ❤️')">
+        تسوقي الآن
+    </button>
+</section>
+
+<h2>الأقسام</h2>
+
+<div class="categories">
+    <div class="category">
+        <div>💄</div>
+        الشفاه
+    </div>
+
+    <div class="category">
+        <div>👁️</div>
+        العيون
+    </div>
+
+    <div class="category">
+        <div>🧴</div>
+        الوجه
+    </div>
+
+    <div class="category">
+        <div>💅</div>
+        الأظافر
+    </div>
+
+    <div class="category">
+        <div>🖌️</div>
+        الأدوات
+    </div>
+</div>
+
+<h2>🔥 منتجات مميزة</h2>
+
+<div class="products">
+
+    <div class="product">
+        <div class="photo">💄</div>
+        <h3>روج مات</h3>
+        <small>Maybelline</small>
+        <div class="price">170 جنيه</div>
+        <button onclick="alert('تمت إضافة المنتج للسلة ❤️')">
+            أضف للسلة
+        </button>
+    </div>
+
+    <div class="product">
+        <div class="photo">🧴</div>
+        <h3>فاونديشن</h3>
+        <small>Makeup</small>
+        <div class="price">200 جنيه</div>
+        <button onclick="alert('تمت إضافة المنتج للسلة ❤️')">
+            أضف للسلة
+        </button>
+    </div>
+
+</div>
+
+<nav>
+    <button>⌂<br>الرئيسية</button>
+    <button>▦<br>الأقسام</button>
+    <button>🛍<br>المنتجات</button>
+    <button>🛒<br>السلة</button>
+    <button>♙<br>حسابي</button>
+</nav>
+
+</body>
+  </html>
